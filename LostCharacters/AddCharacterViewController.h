@@ -1,5 +1,5 @@
 //
-//  MasterViewController.h
+//  AddCharacterViewController.h
 //  LostCharacters
 //
 //  Created by Thomas Orten on 6/3/14.
@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
 #import <CoreData/CoreData.h>
 
-@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@interface AddCharacterViewController : UIViewController <NSFetchedResultsControllerDelegate>
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 

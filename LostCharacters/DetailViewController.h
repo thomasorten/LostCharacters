@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController <NSFetchedResultsControllerDelegate>
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

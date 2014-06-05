@@ -25,6 +25,8 @@
 		45D74EA1193E4AB5005DEEA2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D74E7C193E4AB5005DEEA2 /* CoreData.framework */; };
 		45D74EA9193E4AB5005DEEA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45D74EA7193E4AB5005DEEA2 /* InfoPlist.strings */; };
 		45D74EAB193E4AB5005DEEA2 /* LostCharactersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D74EAA193E4AB5005DEEA2 /* LostCharactersTests.m */; };
+		45D74EB6193E4C4E005DEEA2 /* AddCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D74EB5193E4C4E005DEEA2 /* AddCharacterViewController.m */; };
+		45D74EB9193E7953005DEEA2 /* CharacterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D74EB8193E7953005DEEA2 /* CharacterTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		45D74EA6193E4AB5005DEEA2 /* LostCharactersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LostCharactersTests-Info.plist"; sourceTree = "<group>"; };
 		45D74EA8193E4AB5005DEEA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45D74EAA193E4AB5005DEEA2 /* LostCharactersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LostCharactersTests.m; sourceTree = "<group>"; };
+		45D74EB4193E4C4E005DEEA2 /* AddCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCharacterViewController.h; sourceTree = "<group>"; };
+		45D74EB5193E4C4E005DEEA2 /* AddCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCharacterViewController.m; sourceTree = "<group>"; };
+		45D74EB7193E7953005DEEA2 /* CharacterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CharacterTableViewCell.h; path = ../CharacterTableViewCell.h; sourceTree = "<group>"; };
+		45D74EB8193E7953005DEEA2 /* CharacterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CharacterTableViewCell.m; path = ../CharacterTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,11 +129,15 @@
 		45D74E7E193E4AB5005DEEA2 /* LostCharacters */ = {
 			isa = PBXGroup;
 			children = (
+				45D74EB7193E7953005DEEA2 /* CharacterTableViewCell.h */,
+				45D74EB8193E7953005DEEA2 /* CharacterTableViewCell.m */,
 				45D74E87193E4AB5005DEEA2 /* AppDelegate.h */,
 				45D74E88193E4AB5005DEEA2 /* AppDelegate.m */,
 				45D74E8A193E4AB5005DEEA2 /* Main.storyboard */,
 				45D74E90193E4AB5005DEEA2 /* MasterViewController.h */,
 				45D74E91193E4AB5005DEEA2 /* MasterViewController.m */,
+				45D74EB4193E4C4E005DEEA2 /* AddCharacterViewController.h */,
+				45D74EB5193E4C4E005DEEA2 /* AddCharacterViewController.m */,
 				45D74E93193E4AB5005DEEA2 /* DetailViewController.h */,
 				45D74E94193E4AB5005DEEA2 /* DetailViewController.m */,
 				45D74E96193E4AB5005DEEA2 /* Images.xcassets */,
@@ -263,10 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D74EB6193E4C4E005DEEA2 /* AddCharacterViewController.m in Sources */,
 				45D74E95193E4AB5005DEEA2 /* DetailViewController.m in Sources */,
 				45D74E92193E4AB5005DEEA2 /* MasterViewController.m in Sources */,
 				45D74E8F193E4AB5005DEEA2 /* LostCharacters.xcdatamodeld in Sources */,
 				45D74E89193E4AB5005DEEA2 /* AppDelegate.m in Sources */,
+				45D74EB9193E7953005DEEA2 /* CharacterTableViewCell.m in Sources */,
 				45D74E85193E4AB5005DEEA2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
